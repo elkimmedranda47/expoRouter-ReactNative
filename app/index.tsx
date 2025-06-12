@@ -8,13 +8,14 @@ export default function Home() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        gap:20
-        //backgroundColor: "#EBDEC4",  // Un color de fondo suave para el contenedor principal
+        gap:20,
+        backgroundColor: "#EBDEC4",  // Un color de fondo suave para el contenedor principal
       }}
     >
-      <Text>Home page</Text>
-      <Link href={"/about"}>About</Link>
-      <Link href={"/profile"}>Profile</Link>
+       <Text style={{ fontSize: 32, fontWeight: "bold", marginBottom: 10 }}>Página de Inicio</Text>
+      <Link href={"/about"}>Acerca de</Link>
+      <Link href={"/profile"}>Perfil</Link>
+      <Link href={"/products"} style={{ fontSize: 24, fontWeight: "bold" }}>Productos</Link>
     </View>
   );
 }
