@@ -11,13 +11,13 @@ console.log(typeof id);
 console.log(typeof numericId);
 
   return (
-    <View style={styles.continue}>
+    <View style={styles.containe}>
       <Text>Details about Product witth id {id}</Text>
      
     </View>
   )
 }
-const styles = StyleSheet.create({continue:{
+const styles = StyleSheet.create({containe:{
     flex:1,
     justifyContent:"center",
     alignItems:"center",
