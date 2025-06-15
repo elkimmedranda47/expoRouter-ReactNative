@@ -9,7 +9,7 @@ export default function ProducList() {
       
       
 
-      <Link href={"/products/1"}>Ver Producto 1</Link>
+      <Link href={"./1"} relativeToDirectory >Ver Producto 1</Link>
       <Link href={"/products/52"}>Ver Producto 52</Link>
       <Link href={"/products/3"}>Ver Producto 3</Link>
       
